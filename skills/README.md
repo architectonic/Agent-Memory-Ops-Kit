@@ -19,3 +19,7 @@ Keep skills short. If a workflow requires several skills, compose them in a runb
 - `handoff-writing.md`
 - `external-system-mutation.md`
 - `decision-review.md`
+- `goal-tracking.md`
+- `ontology-extraction.md`
+- `memory-maintenance.md`
+- `docs-indexing.md`
