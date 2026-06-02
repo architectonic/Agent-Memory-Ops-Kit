@@ -2,7 +2,7 @@
 
 Give your AI coding agent a working memory before it touches your repo.
 
-Agent Memory Ops Kit is a public, plain-Markdown starter vault for humans supervising AI coding agents. It gives agents a small set of files to read before acting: project rules, memory boundaries, decision records, handoff templates, QA checks, security checks, and tool-use guardrails.
+Agent Memory Ops Kit is a public, plain-Markdown starter vault for humans supervising AI coding agents. It gives agents a small set of files to read before acting: project rules, memory boundaries, decision records, handoff templates, QA checks, security checks, tool-use guardrails, reusable cognitive models, and maintenance cycles.
 
 It is not a SaaS, runtime, database, RAG stack, prompt dump, or long wiki. It is an operational filesystem for agentic development.
 
@@ -26,10 +26,13 @@ security_review.md
 tool_use_guardrails.md
 mcp_security.md
 
+models/
+cognition/
 skills/
 runbooks/
 templates/
 examples/
+ecosystem/
 ```
 
 ## Core Idea
@@ -42,9 +45,11 @@ The files in this repo answer:
 - What is the project contract?
 - What can the agent change without asking?
 - What decisions have already been made?
+- What long-term goals should the agent preserve?
 - What evidence must be produced before work is considered complete?
 - What data must never be committed?
 - How should work be handed off between sessions?
+- How should the repo periodically prune junk and improve itself?
 
 ## Use
 
@@ -62,7 +67,7 @@ Start with:
 8. `security_review.md`
 9. `tool_use_guardrails.md`
 
-Then adapt the examples and templates to your project.
+Then adapt the models, examples, and templates to your project.
 
 ## Public Boundary
 
