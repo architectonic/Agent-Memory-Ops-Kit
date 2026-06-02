@@ -6,9 +6,11 @@ It is a curated index, not an encyclopedia.
 
 ## Files
 
+- `llm_wiki_pattern.md`
 - `tool_categories.md`
 - `docs_index.md`
 - `stack_patterns.md`
+- `hermes_skills_map.md`
 
 ## Rules
 
