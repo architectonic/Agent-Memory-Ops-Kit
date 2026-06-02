@@ -9,6 +9,7 @@ Use these to create project-specific files without inventing structure each time
 - `skill_model.md`
 - `goal_model.md`
 - `dream_cycle.md`
+- `wiki_model.md`
 - `ontology_model.md`
 - `preferences_model.md`
 - `decision_model.md`
