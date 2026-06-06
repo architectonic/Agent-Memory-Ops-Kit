@@ -95,3 +95,4 @@ Private operating memory belongs in a private repo or local vault.
 - Root causes over workarounds.
 - Minimal process before heavy process.
 - Public templates, private context elsewhere.
+- Connector-driven automation should always target an explicitly named repository.
