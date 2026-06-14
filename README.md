@@ -2,7 +2,7 @@
 
 A Markdown-native operating memory layer for AI coding agents.
 
-Agent Memory Ops Kit gives coding agents governed project context before they touch your repo: source hierarchy, authority rules, memory classes, decision records, handoff rituals, QA checks, security boundaries, tool-use guardrails, and memory reconciliation.
+Agent Memory Ops Kit gives coding agents governed project context before they touch your repo: source hierarchy, authority rules, ontology, memory classes, decision records, handoff rituals, QA checks, security boundaries, tool-use guardrails, and memory reconciliation.
 
 It is not a SaaS, runtime, database, RAG stack, prompt dump, or long wiki.
 
@@ -33,6 +33,7 @@ AGENTS.md
 START_HERE.md
 memory_ops_doctrine.md
 modus_operandi.md
+ontology.md
 repo_contract.md
 authority.md
 memory_model.md
@@ -57,11 +58,23 @@ ecosystem/
 
 Agents perform better when the project carries its own operating context.
 
+That context consists of:
+
+```text
+Ontology
+→ Authority
+→ Memory
+→ Decisions
+→ Verification
+→ Handoffs
+```
+
 The files in this repo answer:
 
+- What exists in the agent's world?
+- Which source has authority when sources conflict?
 - What should the agent read first?
 - What is the project contract?
-- Which source has authority when sources conflict?
 - What can the agent change without asking?
 - What decisions have already been made?
 - What long-term goals should the agent preserve?
@@ -81,15 +94,16 @@ Start with:
 2. `START_HERE.md`
 3. `memory_ops_doctrine.md`
 4. `modus_operandi.md`
-5. `repo_contract.md`
-6. `authority.md`
-7. `memory_model.md`
-8. `memory_lifecycle.md`
-9. `decision_log.md`
-10. `handoff_log.md`
-11. `qa_gauntlet.md`
-12. `security_review.md`
-13. `tool_use_guardrails.md`
+5. `ontology.md`
+6. `repo_contract.md`
+7. `authority.md`
+8. `memory_model.md`
+9. `memory_lifecycle.md`
+10. `decision_log.md`
+11. `handoff_log.md`
+12. `qa_gauntlet.md`
+13. `security_review.md`
+14. `tool_use_guardrails.md`
 
 Then adapt the models, examples, and templates to your project.
 
@@ -113,8 +127,9 @@ Private operating memory belongs in a private repo or local vault.
 
 - Markdown first.
 - Small files over giant manuals.
-- Source artifacts over model memory.
+- Ontology before memory.
 - Authority before recall.
+- Source artifacts over model memory.
 - Decisions over vibes.
 - Verification over confidence.
 - Memory reconciliation over context hoarding.
